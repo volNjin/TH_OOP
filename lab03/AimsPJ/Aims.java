@@ -17,7 +17,7 @@ public class Aims {
         dvd1.printInfo();
         dvd2.printInfo();
         dvd3.printInfo();
-
+        
         //Tao mot don hang moi
         Order anOrder = new Order();
         //Them dvd vao don hang
@@ -25,7 +25,7 @@ public class Aims {
         anOrder.addDVD(dvd2);
         anOrder.addDVD(dvd3);
         
-        anOrder.removeDVD(dvd1);
         System.out.println("Total cost is: "+anOrder.totalCost());
+        anOrder.showListOrdered();
     }
 }
