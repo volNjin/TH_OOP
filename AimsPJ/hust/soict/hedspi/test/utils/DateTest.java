@@ -1,4 +1,7 @@
-package lab03.AimsPJ;
+package AimsPJ.hust.soict.hedspi.test.utils;
+
+import AimsPJ.hust.soict.hedspi.aims.utils.DateUtils;
+import AimsPJ.hust.soict.hedspi.aims.utils.MyDate;
 
 public class DateTest {
     public static void main(String[] args){

@@ -1,5 +1,9 @@
-package lab03.AimsPJ;
+package AimsPJ.hust.soict.hedspi.aims.order;
 
+import java.util.Random;
+
+import AimsPJ.hust.soict.hedspi.aims.disc.DigitalVideoDisc;
+import AimsPJ.hust.soict.hedspi.aims.utils.*;
 public class Order {
     //Khai bao mot hang so: so luong san pham toi da
     public static final int MAX_NUMBERS_ORDERED = 10;
@@ -92,5 +96,11 @@ public class Order {
         } 
         System.out.println("Total cost: "+totalCost()+"$");
         System.out.println("***************************************************");
+    }
+    public DigitalVideoDisc getALuckyItem(){
+        Random rd = new Random();
+        int luckynumber = rd.nextInt(this.qtyOrdered);
+        this.itemsOrdered[luckynumber].setCost(0);
+        return this.itemsOrdered[luckynumber];
     }
 }

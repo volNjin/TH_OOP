@@ -1,5 +1,7 @@
-package lab03.AimsPJ;
+package AimsPJ.hust.soict.hedspi.aims;
 
+import AimsPJ.hust.soict.hedspi.aims.disc.DigitalVideoDisc;
+import AimsPJ.hust.soict.hedspi.aims.order.Order;
 public class Aims {
     public static void main(String[] args){
         DigitalVideoDisc dvd0 = new DigitalVideoDisc();

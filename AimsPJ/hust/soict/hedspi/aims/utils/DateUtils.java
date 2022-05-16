@@ -1,4 +1,4 @@
-package lab03.AimsPJ;
+package AimsPJ.hust.soict.hedspi.aims.utils;
 
 public class DateUtils {
     static void swap(MyDate[] arr, int i, int j)

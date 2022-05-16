@@ -1,4 +1,4 @@
-package lab03.AimsPJ;
+package AimsPJ.hust.soict.hedspi.aims.utils;
 
 import java.util.Calendar;
 import java.util.TimeZone;

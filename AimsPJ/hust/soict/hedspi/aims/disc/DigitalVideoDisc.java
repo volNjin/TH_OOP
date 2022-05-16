@@ -1,4 +1,4 @@
-package lab03.AimsPJ;
+package AimsPJ.hust.soict.hedspi.aims.disc;
 
 public class DigitalVideoDisc {
     
@@ -99,5 +99,12 @@ public class DigitalVideoDisc {
         System.out.println("Director: "+this.director);
         System.out.println("Length: "+this.length);
         System.out.println("Cost: "+this.cost);
+    }
+    public boolean search(String title){
+        String sTitle[] = title.split(" ");
+        for (String s: sTitle){
+            if(this.title.contains(s)==false) return false;
+        }
+        return true;
     }
 }
